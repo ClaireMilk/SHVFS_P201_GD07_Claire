@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637831164726178096
+      ticks: 637867433289251322
     m_Hash: 3823417639
   m_LockFileStatus:
     m_FilePath: D:/Unity/SHVFS_P201_GD07_Claire/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637831164855278810
+      ticks: 637867432839322312
     m_Hash: 3695525228
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -79,6 +79,7 @@ m_ResolvedPackages:
     - 1.14.12
     - 1.14.13
     - 1.14.15
+    - 1.14.16
     - 1.15.1
     - 1.15.4
     - 1.15.7
@@ -86,6 +87,7 @@ m_ResolvedPackages:
     - 1.15.12
     - 1.15.13
     - 1.15.15
+    - 1.15.16
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -105,6 +107,7 @@ m_ResolvedPackages:
     - 1.14.12
     - 1.14.13
     - 1.14.15
+    - 1.14.16
     - 1.15.1
     - 1.15.4
     - 1.15.7
@@ -112,6 +115,7 @@ m_ResolvedPackages:
     - 1.15.12
     - 1.15.13
     - 1.15.15
+    - 1.15.16
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -222,12 +226,16 @@ m_ResolvedPackages:
     - 3.0.9
     - 3.0.10
     - 3.0.12
+    - 3.0.13
+    - 3.0.14
     compatible:
     - 3.0.7
     - 3.0.9
     - 3.0.10
     - 3.0.12
-    verified: 3.0.12
+    - 3.0.13
+    - 3.0.14
+    verified: 3.0.14
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -297,11 +305,13 @@ m_ResolvedPackages:
     - 2.0.11
     - 2.0.12
     - 2.0.14
+    - 2.0.15
     compatible:
     - 2.0.11
     - 2.0.12
     - 2.0.14
-    verified: 2.0.14
+    - 2.0.15
+    verified: 2.0.15
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -456,12 +466,14 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     verified: 1.1.31
@@ -2942,11 +2954,13 @@ m_ResolvedPackages:
     - 2.0.1-preview.1
     - 2.0.2
     - 3.0.1
+    - 3.0.2
     compatible:
     - 2.0.0
     - 2.0.1-preview.1
     - 2.0.2
     - 3.0.1
+    - 3.0.2
     verified: 2.0.2
   dependencies: []
   resolvedDependencies: []
@@ -3007,6 +3021,8 @@ m_ResolvedPackages:
     - 1.1.0-pre.41
     - 1.1.0-pre.69
     - 1.2.0
+    - 1.3.1
+    - 1.3.2
     compatible:
     - 1.0.1
     - 1.1.0-pre.7
@@ -3017,6 +3033,8 @@ m_ResolvedPackages:
     - 1.1.0-pre.41
     - 1.1.0-pre.69
     - 1.2.0
+    - 1.3.1
+    - 1.3.2
     verified: 1.0.1
   dependencies:
   - name: com.unity.modules.unitywebrequest

@@ -11,7 +11,7 @@ public class GameOverSystem : Singleton<GameOverSystem>
 
     private void OnDisable()
     {
-        Evently.Instance.Ubsubscribe<GameOverEvent>(OnGameOver);
+        Evently.Instance.Unsubscribe<GameOverEvent>(OnGameOver);
     }
 
     private void OnGameOver(GameOverEvent over)

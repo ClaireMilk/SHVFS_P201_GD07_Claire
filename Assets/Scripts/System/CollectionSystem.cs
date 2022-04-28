@@ -11,7 +11,7 @@ public class CollectionSystem : MonoBehaviour
 
     public void OnDisable()
     {
-        Evently.Instance.Ubsubscribe<CollectionEvent>(OnCollected);
+        Evently.Instance.Unsubscribe<CollectionEvent>(OnCollected);
     }
 
     private void OnCollected(CollectionEvent evt)

@@ -32,7 +32,7 @@ public class Evently
         }
     }
 
-    public void Ubsubscribe<T>(Action<T> del)
+    public void Unsubscribe<T>(Action<T> del)
     {
         if (delegates.ContainsKey(typeof(T))) return;
 
