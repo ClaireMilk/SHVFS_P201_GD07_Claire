@@ -25,4 +25,31 @@ public class PlayerInputComponent : MovementComponent
         }
         base.Update();
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.GetComponent<EnemyInputComponent>())
+        {
+            Lose();
+        }
+
+        if (other.GetComponent<Pills>())
+        {
+            Destroy(other.gameObject);
+            if(FindObjectsOfType<Pills>().Length <= 1)
+            {
+                Debug.Log("You win");
+            }
+        }
+    }
+
+    public void Lose()
+    {
+
+    }
+
+    public void Win()
+    {
+
+    }
 }
